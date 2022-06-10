@@ -6,13 +6,25 @@
       <%= form.text_field :query, placeholder: "Search for beer name" %>
       <%= form.submit "Search" %>
     <% end %>
+  <br>
+  </section>
+
+  <section>
+    <% flash.each do |type, msg| %>
+      <div>
+      <br>
+        <%= msg %>
+      </div>
+    <% end %>
   </section>
 
 <main>
   <section>
     <% @beers.each do |beer| %>
     <aside>
-      <%= image_tag(beer["image_url"], height: '150') %>
+      <% unless beer["image_url"].nil? %>
+        <%= image_tag(beer["image_url"], height: '150') %>
+      <% end %>
       <br>
      <%= link_to(beer["name"], beer_path(beer["id"])) %>
       <br>
