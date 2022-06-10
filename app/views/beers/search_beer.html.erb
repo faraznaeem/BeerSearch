@@ -1,0 +1,31 @@
+
+
+<main>
+  <head>
+  <p>
+    <%== pagy_nav(@pagy) %>
+  </p>
+    <%= link_to("Back", root_path) %>
+  </head>
+  <section>
+    <% @search_result.each do |result| %>
+    <br>
+    <aside>
+    <h3><%= link_to(result["name"], beer_path(result["id"])) %></h3>
+    <br>
+      <% unless result["image_url"].nil? %>
+        <%= image_tag(result["image_url"], height: '150') %>
+      <% end %>
+
+        <small>Alcohol content: <%= result["abv"] %>%</small>
+        <small>
+          <details>
+            <summary>Read more</summary>
+            <%= result["description"] %>
+          </details>
+        </small>
+    </aside>
+    <% end %>
+  </section>
+
+</main>

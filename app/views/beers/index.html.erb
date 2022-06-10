@@ -1,0 +1,30 @@
+<header>
+  <h1>Search for Beers</h1>
+</header>
+  <section>
+    <%= form_with url: "/search", method: :get do |form| %>
+      <%= form.text_field :query, placeholder: "Search for beer name" %>
+      <%= form.submit "Search" %>
+    <% end %>
+  </section>
+
+<main>
+  <section>
+    <% @beers.each do |beer| %>
+    <aside>
+      <%= image_tag(beer["image_url"], height: '150') %>
+      <br>
+     <%= link_to(beer["name"], beer_path(beer["id"])) %>
+      <br>
+      <small>Alcohol content: <%= beer["abv"] %>%</small>
+      <small>
+        <details>
+          <summary>Read more</summary>
+          <%= beer["description"] %>
+        </details>
+      </small>
+    </aside>
+    <% end %>
+  </section>
+
+</main>
