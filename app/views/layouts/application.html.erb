@@ -12,12 +12,7 @@
 
   <body>
     <section>
-    <% flash.each do |type, msg| %>
-      <div>
-      <br>
-        <%= msg %>
-      </div>
-    <% end %>
+    <%= render "layouts/flash" %>
   </section>
     <%= yield %>
   </body>
