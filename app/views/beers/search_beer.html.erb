@@ -11,7 +11,7 @@
     <aside>
     <h3><%= link_to(result["name"], beer_path(result["id"])) %></h3>
     <br>
-    
+
       <% unless result["image_url"].nil? %>
         <%= image_tag(result["image_url"], height: '150') %>
       <% end %>

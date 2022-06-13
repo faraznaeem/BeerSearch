@@ -16,18 +16,12 @@ class BeersController < ApplicationController
 
   def search_beer
     @search_beer = params[:query]
-
-    if @search_beer.ascii_only?
-      response = JSON.parse(RestClient.get(URI+"?beer_name=#{@search_beer}&per_page=80").body)
-      message = "No beers found for #{@search_beer}"
-
-      if response.empty?
-        redirect_to root_path, notice: message
-      else
-        @pagy, @search_result = pagy_array(response, items: 10)
-      end
-
+    if @search_beer.ascii_only? && !@search_beer.empty?
+      response = RestClient.get(URI+"?beer_name=#{@search_beer}&per_page=80") unless
+      parsed_response = JSON.parse(response.body)
+      @pagy, @search_result = pagy_array(parsed_response, items: 10)
     else
+      message = "No beers found for '#{@search_beer}'"
       redirect_to root_path, notice: message
     end
   end
