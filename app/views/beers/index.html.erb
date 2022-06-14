@@ -12,10 +12,8 @@
 <main>
   <section>
     <% @beers.each do |beer| %>
-    <aside>
-      <% unless beer["image_url"].nil? %>
-        <%= image_tag(beer["image_url"], height: '150') %>
-      <% end %>
+    <aside class="card">
+         <%= check_and_display_image(beer) %>
       <br>
      <%= link_to(beer["name"], beer_path(beer["id"])) %>
       <br>
