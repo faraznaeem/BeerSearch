@@ -19,7 +19,12 @@ class BeersController < ApplicationController
     if @search_beer.ascii_only? && !@search_beer.empty?
       response = RestClient.get(URI+"?beer_name=#{@search_beer}&per_page=80")
       parsed_response = JSON.parse(response.body)
-      @pagy, @search_result = pagy_array(parsed_response, items: 10)
+      if parsed_response.empty?
+        message = "No beers found for '#{@search_beer}'"
+        redirect_to root_path, notice: message
+      else
+        @pagy, @search_result = pagy_array(parsed_response, items: 10)
+      end
     else
       message = "No beers found for '#{@search_beer}'"
       redirect_to root_path, notice: message

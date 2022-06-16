@@ -1,0 +1,551 @@
+[
+  {
+    "id": 63,
+    "name": "Sunk Punk",
+    "tagline": "Ocean Fermented Lager.",
+    "first_brewed": "09/2011",
+    "description": "It's rumoured just a drop can calm the fiercest of storms. A balance of sweet, salt and savoury, citrus, spruce and caramel. Fermented at the bottom of the North Sea, which just so happens to be the perfect temperature for lagers to ferment.",
+    "image_url": "https://images.punkapi.com/v2/63.png",
+    "abv": 7.1,
+    "ibu": 68,
+    "target_fg": 1010,
+    "target_og": 1056,
+    "ebc": 14,
+    "srm": 7,
+    "ph": 4.4,
+    "attenuation_level": 82.1,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 65, "unit": "celsius" }, "duration": 75 }
+      ],
+      "fermentation": { "temp": { "value": 10, "unit": "celsius" } },
+      "twist": "Seabuckthorn: 25g at end, Sea Salt: 20g at middle, Rum: 25ml at end"
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": { "value": 5.21, "unit": "kilograms" }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Chinook",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 30, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Nelson Sauvin",
+          "amount": { "value": 140, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Salt baked cod with lemon and dill butter",
+      "Beef, oyster and ale pie",
+      "Apple and rosemary tart"
+    ],
+    "brewers_tips": "Keep the fermentation temperature as steady as possible to allow the lager yeast to do its thing.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 95,
+    "name": "Peroxide Punk",
+    "tagline": "Zesty Pale Ale.",
+    "first_brewed": "04/2007",
+    "description": "A trashy blonde concession for those who felt that our original 6% Punk IPA recipe was too hard hitting. This was also the first time we experimented with dry hopping our beers, giving Peroxide Punk a depth of flavour that belies its modest ABV. Zesty, aromatic and thirst quenching.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 4,
+    "ibu": 40,
+    "target_fg": 1009,
+    "target_og": 1039,
+    "ebc": 18,
+    "srm": 9,
+    "ph": 4.4,
+    "attenuation_level": 76.9,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 65, "unit": "celsius" }, "duration": 75 }
+      ],
+      "fermentation": { "temp": { "value": 19, "unit": "celsius" } },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Maris Otter",
+          "amount": { "value": 3.85, "unit": "kilograms" }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Amarillo",
+          "amount": { "value": 25, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Simcoe",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Amarillo",
+          "amount": { "value": 25, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Crystal",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Liberty",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": { "value": 50, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Amarillo",
+          "amount": { "value": 50, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        }
+      ],
+      "yeast": "Wyeast 1056 - American Ale™"
+    },
+    "food_pairing": [
+      "Sashimi",
+      "Pan roasted poussin with spring veg",
+      "Lemon and thyme panna cotta"
+    ],
+    "brewers_tips": "During the mashing process, try to mix the malt without 'turning' or splashing too much. This will cause more oxygen to be dissolved in the mash - and result in a beer that will taste a little like a cardboard box.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 98,
+    "name": "Pumpkin King",
+    "tagline": "Spicy Citrus Pumpkin Ale.",
+    "first_brewed": "08/2015",
+    "description": "We're turning Hallowe’en inside out and upside down. Pumpkin King is not your usual unctuous, cloyingly sweet Hallowe’en pumpkin ale. Sure, there’s a huge heady hit of pungent spice on the nose, but it’s followed with bright and zesty citrus flavours, and a light mouthfeel. Spicy and sweet autumnal favourites like toasted marshmallow and toffee apple are just some of the complex notes you’ll find in our twisted take on a pumpkin ale, which weighs in at 5.4% ABV.",
+    "image_url": "https://images.punkapi.com/v2/98.png",
+    "abv": 5.4,
+    "ibu": 20,
+    "target_fg": 1014,
+    "target_og": 1055,
+    "ebc": 30,
+    "srm": 15,
+    "ph": 4.4,
+    "attenuation_level": 74.6,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 65, "unit": "celsius" }, "duration": null }
+      ],
+      "fermentation": { "temp": { "value": 19, "unit": "celsius" } },
+      "twist": "Pumkin puree: 375g, Grains of Paradise: 2.5g at end, Star Anise: 1.5g at end, Cinnamon: 2.5g at end, Nutmeg: 2.5g at end, Allspice: 2.5g at end, Ginger: 2.5g at end, Clove: 2.5g at end"
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": { "value": 3.88, "unit": "kilograms" }
+        },
+        { "name": "Munich", "amount": { "value": 0.63, "unit": "kilograms" } },
+        {
+          "name": "Dark Crystal",
+          "amount": { "value": 0.13, "unit": "kilograms" }
+        },
+        { "name": "Amber", "amount": { "value": 0.38, "unit": "kilograms" } }
+      ],
+      "hops": [
+        {
+          "name": "Magnum",
+          "amount": { "value": 2.5, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Willamette",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "First Gold",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 1272 - American Ale II™"
+    },
+    "food_pairing": [
+      "Creamy maple syrup and bacon soup",
+      "Chunky chicken and vegetable spiced stew",
+      "Pumpkin pie"
+    ],
+    "brewers_tips": "Experiment with the spice addition to find the correct balance to suit your taste. FYI star anise is a very strong flavour.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 106,
+    "name": "Punk IPA 2010 - Current",
+    "tagline": "Post Modern Classic. Spiky. Tropical. Hoppy.",
+    "first_brewed": "10/2010",
+    "description": "Punk IPA. Amplified. In 2010 we finally got our paws on the equipment we needed to dry hop our beers. We focused all our energy on dry hopping, amping up the aroma and flavour of our flagship beer to create a relentless explosion of tropical fruits, and adding a hint of Caramalt to balance out the insane amount of hops.",
+    "image_url": "https://images.punkapi.com/v2/106.png",
+    "abv": 5.6,
+    "ibu": 40,
+    "target_fg": 1011,
+    "target_og": 1055,
+    "ebc": 15,
+    "srm": 7.6,
+    "ph": 4.4,
+    "attenuation_level": 78,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 66, "unit": "celsius" }, "duration": 75 }
+      ],
+      "fermentation": { "temp": { "value": 19, "unit": "celsius" } },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": { "value": 4.38, "unit": "kilograms" }
+        },
+        { "name": "Caramalt", "amount": { "value": 0.25, "unit": "kilograms" } }
+      ],
+      "hops": [
+        {
+          "name": "Chinook",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 27.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Nelson Sauvin",
+          "amount": { "value": 12.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 47.5, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 37.5, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Simcoe",
+          "amount": { "value": 37.5, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Nelson Sauvin",
+          "amount": { "value": 20, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Cascade",
+          "amount": { "value": 37.5, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        },
+        {
+          "name": "Amarillo",
+          "amount": { "value": 10, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        }
+      ],
+      "yeast": "Wyeast 1056 - American Ale™"
+    },
+    "food_pairing": [
+      "Spicy carne asada with a pico de gallo sauce",
+      "Shredded chicken tacos with a mango chilli lime salsa",
+      "Cheesecake with a passion fruit swirl sauce"
+    ],
+    "brewers_tips": "To get the best possible profile from the dry hops we recommend dry hopping post fermentation for 5 days. Dry hops should be added at cellar temperature. We find 14°C results in the most aromatic dry hop profile.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 121,
+    "name": "Punk Monk",
+    "tagline": "Who Ordered The Belgian Yeast?",
+    "first_brewed": "07/2009",
+    "description": "Old world meets new in this trans-atlantic mash up of brewing ingredients. Belgian funk incorporates itself into the pithy, resin and grapefruit, with pineapple and banana rounding out a rambunctious avalanche of fruity hops.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 6,
+    "ibu": 60,
+    "target_fg": 1010,
+    "target_og": 1056,
+    "ebc": 17,
+    "srm": 8.5,
+    "ph": 4.4,
+    "attenuation_level": 82.1,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 65, "unit": "celsius" }, "duration": 75 }
+      ],
+      "fermentation": { "temp": { "value": 19, "unit": "celsius" } },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": { "value": 5.3, "unit": "kilograms" }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 15, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Crystal",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Motueka",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 30, "unit": "grams" },
+          "add": "dry hop",
+          "attribute": "aroma"
+        }
+      ],
+      "yeast": "Wyeast 3522 - Belgian Ardennes™"
+    },
+    "food_pairing": ["Moules frites", "Thai green curry", "Lemon posset"],
+    "brewers_tips": "Bottle condition and prime with a little bit more sugar than usual to attain those authentic fine Belgian bubbles.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 192,
+    "name": "Punk IPA 2007 - 2010",
+    "tagline": "Post Modern Classic. Spiky. Tropical. Hoppy.",
+    "first_brewed": "04/2007",
+    "description": "Our flagship beer that kick started the craft beer revolution. This is James and Martin's original take on an American IPA, subverted with punchy New Zealand hops. Layered with new world hops to create an all-out riot of grapefruit, pineapple and lychee before a spiky, mouth-puckering bitter finish.",
+    "image_url": "https://images.punkapi.com/v2/192.png",
+    "abv": 6,
+    "ibu": 60,
+    "target_fg": 1010,
+    "target_og": 1056,
+    "ebc": 17,
+    "srm": 8.5,
+    "ph": 4.4,
+    "attenuation_level": 82.14,
+    "volume": { "value": 20, "unit": "litres" },
+    "boil_volume": { "value": 25, "unit": "litres" },
+    "method": {
+      "mash_temp": [
+        { "temp": { "value": 65, "unit": "celsius" }, "duration": 75 }
+      ],
+      "fermentation": { "temp": { "value": 19, "unit": "celsius" } },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": { "value": 5.3, "unit": "kilograms" }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 15, "unit": "grams" },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Crystal",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": { "value": 27.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Crystal",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Motueka",
+          "amount": { "value": 17.5, "unit": "grams" },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 1056 - American Ale™"
+    },
+    "food_pairing": [
+      "Spicy carne asada with a pico de gallo sauce",
+      "Shredded chicken tacos with a mango chilli lime salsa",
+      "Cheesecake with a passion fruit swirl sauce"
+    ],
+    "brewers_tips": "While it may surprise you, this version of Punk IPA isn't dry hopped but still packs a punch! To make the best of the aroma hops make sure they are fully submerged and add them just before knock out for an intense hop hit.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  }
+]

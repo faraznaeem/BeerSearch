@@ -10,7 +10,7 @@
   <section>
     <% @search_result.each do |result| %>
     <br>
-    <aside>
+    <aside class="card">
     <h3><%= link_to(result["name"], beer_path(result["id"])) %></h3>
     <br>
     <figure>
