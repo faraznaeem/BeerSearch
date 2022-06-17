@@ -53,12 +53,17 @@ gem 'pagy', '~> 5.9', '>= 5.9.1'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "pry-rails"
-  gem 'rspec-rails'
+  gem 'brakeman'
+  gem 'bundler-audit'
   gem 'capybara'
-  gem 'webmock'
   gem 'launchy'
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'rspec-rails', require: false
+  gem 'rubocop-discourse'
+  gem 'rubocop-rails', require: false
+  gem 'rubocop'
+  gem 'ruby_audit'
+  gem 'webmock'
+  gem "pry-rails"
 end
 
 group :development do
