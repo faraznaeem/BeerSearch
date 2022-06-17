@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: rubocop with standard config
+        name: standard formatting for ruby
+        language: system # Do not rely on pre-commit handling the ruby dependencies!
+        exclude: (Gemfile.*lock|db/schema.rb)
+        entry: bundle exec rubocop --auto-correct
+        types: [ruby]
