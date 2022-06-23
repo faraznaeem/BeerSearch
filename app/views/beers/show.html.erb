@@ -5,29 +5,29 @@
   <small><%= @beer["abv"] %>% alcohol</small>
 </header>
 
-  <section>
-    <%= link_to("Back", :back) %>
-  </section>
 <section>
-<ul>
-<h3>
-<mark><%= @beer["name"] %></mark> is excellent to pair with the following dishes:</h3>
-  <% @beer["food_pairing"].each do |food| %>
-    <li>
-      <%= food %>
-    </li>
-  <% end %>
-</ul>
+  <%= link_to("Back", :back) %>
 </section>
+
+<section>
+  <ul>
+    <h3><mark><%= @beer["name"] %></mark> is excellent to pair with the following dishes:</h3>
+    <% @beer["food_pairing"].each do |food| %>
+      <li>
+        <%= food %>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
 <main>
   <section>
-  <aside>
-    <figure>
-      <%= check_and_display_image(@beer) %>
-    </figure>
-  </aside>
-      <br>
+    <aside>
+      <figure>
+        <%= check_and_display_image(@beer) %>
+      </figure>
+    </aside>
+    <br>
     <%= @beer["description"] %>
   </section>
-
 </main>

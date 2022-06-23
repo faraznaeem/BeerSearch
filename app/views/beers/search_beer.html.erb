@@ -1,21 +1,20 @@
 <main>
   <head>
-  <p>
-    <%== pagy_nav(@pagy) %>
-  </p>
+    <p><%== pagy_nav(@pagy) %></p>
     <%= link_to("Search Again", root_path) %>
     <br>
     <%= link_to("Back to results", :back) %>
   </head>
+
   <section>
     <% @search_result.each do |result| %>
-    <br>
-    <aside class="card">
-    <h3><%= link_to(result["name"], beer_path(result["id"])) %></h3>
-    <br>
-    <figure>
-      <%= check_and_display_image(result) %>
-    </figure>
+      <br>
+      <aside class="card">
+        <h3><%= link_to(result["name"], beer_path(result["id"])) %></h3>
+        <br>
+        <figure>
+          <%= check_and_display_image(result) %>
+        </figure>
         <small>Alcohol content: <%= result["abv"] %>%</small>
         <small>
           <details>
@@ -23,7 +22,7 @@
             <%= result["description"] %>
           </details>
         </small>
-    </aside>
+      </aside>
     <% end %>
   </section>
 </main>
